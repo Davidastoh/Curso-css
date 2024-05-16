@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embebidos</title>
+    <style>
+        span{
+            color: darkturquoise; 
+        }
+        aside{color:red}
+    </style>
 </head>
 <body>
     <header>
@@ -11,11 +17,30 @@
         <nav>
             <ul>
                 <a href="index.html"><li>Indice</li></a>
-                <a href="./enlinea.html"><li>Estilos en linea</li>
-                <a href="./embebidos.html"><li>Estilos embebidos</li>
+                <a href="./enlinea.html"><li>Estilos en linea</li></a>
+                <a href="./embebidos.html"><li>Estilos embebidos</li></a>
+                <a href="./Selectores.html"><li>Selectores</li></a>
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <h3>Descripcion</h3>
+            <p>hacer uso de esta tecnica es una mejor alternmativa ya que
+                hacemmos uso de las etiquetas <b>style</b> en la cabecera
+                de nuestro documento y luego hacemos uso de rferencias a 
+                travez de selectores para afectar los elementos <b>html</b></p>
+        </section>
+        <section>
+            <h3>Ejemplos</h3>
+            <p>crearemos dos etiquetas de tipo bloque una con contenido pero con estilo</p>
+            <span>En este ejemplo tenemos una etiqueta de tipo bloque <b>nav</b> con contenido pero sin estilo</span>
+            <hr/>
+            <nav>Con contenido y sin estilos</nav>
+            <nav style="background-color: rgb(40, 102, 50);height: 20px;"></nav>
+            <span>Etiqueta <b>nav</b> con atributo <b>style</b></span>
+        </section>
+    </main>
         <footer>
         <h3>Derechos reservados &#174 Max &copy Copyright _2024</h3>
     </footer>
