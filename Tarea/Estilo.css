@@ -1,0 +1,43 @@
+.caja{
+    width:210px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+article{
+    height: 110px;
+    width: 33.4%;
+}
+.extremos{
+    background: red;
+}
+.verde{
+    background: green;
+}
+.azul{
+    background: blue;
+}
+.celeste{
+    background: skyblue;
+}
+.Arg{
+        max-width: 80px;
+        max-width: 30px;
+        max-block-size: 20;
+        margin-top: 10px;
+        margin-left: 85px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    
+}
+.cajaArg{
+    width:210px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    article2{
+        height:80%;
+        width: 100%;
+    }
+    border: 2px solid black;
+}
