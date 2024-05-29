@@ -41,3 +41,30 @@ article{
     }
     border: 2px solid black;
 }
+.blancoChi{
+    background-color: white;
+    height: 60px;
+    width: 66%;
+}
+.AzulChi{
+    background-color: blue;
+    height: 60px;
+    width: 34%;
+}
+.escudoChi{
+    width: 90%;
+    height: 70%;
+    max-width: 50px;
+    max-inline-size:40px ;
+    height: auto;
+    margin-top: 13%;
+    margin-left: 10px;
+}
+.boxChi{
+    width: 15%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    
+}
